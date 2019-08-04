@@ -2,11 +2,11 @@
 title: "Hello_World"
 author: "Jenny Tseng"
 date: "8/4/2019"
-output: html_document
+output: MD
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::knit("file.Rmd")
 ```
 
 ```{r}
